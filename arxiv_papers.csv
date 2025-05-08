@@ -1,0 +1,125 @@
+Title,Authors,Summary,PDF Link,Extracted Text
+AMO: Adaptive Motion Optimization for Hyper-Dexterous Humanoid Whole-Body Control,"Jialong Li, Xuxin Cheng, Tianshu Huang, Shiqi Yang, Ri-Zhao Qiu, Xiaolong Wang","Humanoid robots derive much of their dexterity from hyper-dexterous
+whole-body movements, enabling tasks that require a large operational
+workspace: such as picking objects off the ground. However, achieving these
+capabilities on real humanoids remains challenging due to their high degrees of
+freedom (DoF) and nonlinear dynamics. We propose Adaptive Motion Optimization
+(AMO), a framework that integrates sim-to-real reinforcement learning (RL) with
+trajectory optimization for real-time, adaptive whole-body control. To mitigate
+distribution bias in motion imitation RL, we construct a hybrid AMO dataset and
+train a network capable of robust, on-demand adaptation to potentially O.O.D.
+commands. We validate AMO in simulation and on a 29-DoF Unitree G1 humanoid
+robot, demonstrating superior stability and an expanded workspace compared to
+strong baselines. Finally, we show that AMO's consistent performance supports
+autonomous task execution via imitation learning, underscoring the system's
+versatility and robustness.",http://arxiv.org/pdf/2505.03738v1,"arXiv:2505.03738v1  [cs.RO]  6 May 2025
+AMO: Adaptive Motion Optimization for
+Hyper-Dexterous Humanoid Whole-Body Control
+Jialong Li* Xuxin Cheng* Tianshu Huang* Shiqi Yang Ri-Zhao Qiu Xiaolong Wang
+UC San Diego
+https://amo-humanoid.github.io/
+94cm60cm
+123cm
+12cm 56cm
+(a) (b)
+(c) (d)
+(e) (f) (g)
+Fig. 1: AMO enables hyper-dexterous whole-body movements for humanoid robots. (a): The robot picks and places a can on
+platforms of different heights. (b): The robot picks a bottle from the higher shelf "
+Meta-Optimization and Program Search using Language Models for Task and Motion Planning,"Denis Shcherba, Eckart Cobo-Briesewitz, Cornelius V. Braun, Marc Toussaint","Intelligent interaction with the real world requires robotic agents to
+jointly reason over high-level plans and low-level controls. Task and motion
+planning (TAMP) addresses this by combining symbolic planning and continuous
+trajectory generation. Recently, foundation model approaches to TAMP have
+presented impressive results, including fast planning times and the execution
+of natural language instructions. Yet, the optimal interface between high-level
+planning and low-level motion generation remains an open question: prior
+approaches are limited by either too much abstraction (e.g., chaining
+simplified skill primitives) or a lack thereof (e.g., direct joint angle
+prediction). Our method introduces a novel technique employing a form of
+meta-optimization to address these issues by: (i) using program search over
+trajectory optimization problems as an interface between a foundation model and
+robot control, and (ii) leveraging a zero-order method to optimize numerical
+parameters in the foundation model output. Results on challenging object
+manipulation and drawing tasks confirm that our proposed method improves over
+prior TAMP approaches.",http://arxiv.org/pdf/2505.03725v1,"Meta-Optimization and Program Search using
+Language Models for Task and Motion Planning
+Denis Shcherba∗ Eckart Cobo-Briesewitz∗
+TU Berlin TU Berlin
+d.shcherba@campus.tu-berlin.de cobo-briesewitz@campus.tu-berlin.de
+Cornelius V . Braun Marc Toussaint
+TU Berlin TU Berlin
+Abstract: Intelligent interaction with the real world requires robotic agents to
+jointly reason over high-level plans and low-level controls. Task and motion
+planning (TAMP) addresses this by combining symbolic planning and contin"
+Stay Positive: Neural Refinement of Sample Weights,"Benjamin Nachman, Dennis Noll","Monte Carlo simulations are an essential tool for data analysis in particle
+physics. Simulated events are typically produced alongside weights that
+redistribute the cross section across the phase space. Latent degrees of
+freedom introduce a distribution of weights at a given point in the phase
+space, which can include negative values. Several post-hoc reweighting methods
+have been developed to eliminate the negative weights. All of these methods
+share the common strategy of approximating the average weight as a function of
+phase space. We introduce an alternative approach with a potentially simpler
+learning task. Instead of reweighting to the average, we refine the initial
+weights with a scaling transformation, utilizing a phase space-dependent
+factor. Since this new refinement method does not need to model the full weight
+distribution, it can be more accurate. High-dimensional and unbinned phase
+space is processed using neural networks for the refinement. Using both
+realistic and synthetic examples, we show that the new neural refinement method
+is able to match or exceed the accuracy of similar weight transformations.",http://arxiv.org/pdf/2505.03724v1,"Stay Positive: Neural Refinement of Sample Weights
+Benjamin Nachman 1 and Dennis Noll 1, ∗
+1Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
+(Dated: May 7, 2025)
+Monte Carlo simulations are an essential tool for data analysis in particle physics. Simulated
+events are typically produced alongside weights that redistribute the cross section across the phase
+space. Latent degrees of freedom introduce a distribution of weights at a given point in the phase
+space, which can include nega"
+Sustainable Smart Farm Networks: Enhancing Resilience and Efficiency with Decision Theory-Guided Deep Reinforcement Learning,"Dian Chen, Zelin Wan, Dong Sam Ha, Jin-Hee Cho","Solar sensor-based monitoring systems have become a crucial agricultural
+innovation, advancing farm management and animal welfare through integrating
+sensor technology, Internet-of-Things, and edge and cloud computing. However,
+the resilience of these systems to cyber-attacks and their adaptability to
+dynamic and constrained energy supplies remain largely unexplored. To address
+these challenges, we propose a sustainable smart farm network designed to
+maintain high-quality animal monitoring under various cyber and adversarial
+threats, as well as fluctuating energy conditions. Our approach utilizes deep
+reinforcement learning (DRL) to devise optimal policies that maximize both
+monitoring effectiveness and energy efficiency. To overcome DRL's inherent
+challenge of slow convergence, we integrate transfer learning (TL) and decision
+theory (DT) to accelerate the learning process. By incorporating DT-guided
+strategies, we optimize monitoring quality and energy sustainability,
+significantly reducing training time while achieving comparable performance
+rewards. Our experimental results prove that DT-guided DRL outperforms
+TL-enhanced DRL models, improving system performance and reducing training
+runtime by 47.5%.",http://arxiv.org/pdf/2505.03721v1,"Sustainable Smart Farm Networks: Enhancing Resilience and
+Efficiency with Decision Theory-Guided Deep Reinforcement
+Learning
+DIAN CHEN, Virginia Tech, USA
+ZELIN WAN,Virginia Tech, USA
+DONG SAM HA, Virginia Tech, USA
+JIN-HEE CHO, Virginia Tech, USA
+Solar sensor-based monitoring systems have become a crucial agricultural innovation, advancing farm man-
+agement and animal welfare through integrating sensor technology, Internet-of-Things, and edge and cloud
+computing. However, the resilience of thes"
+Nonnegative Low-rank Matrix Recovery Can Have Spurious Local Minima,Richard Y. Zhang,"The classical low-rank matrix recovery problem is well-known to exhibit
+\emph{benign nonconvexity} under the restricted isometry property (RIP): local
+optimization is guaranteed to converge to the global optimum, where the ground
+truth is recovered. We investigate whether benign nonconvexity continues to
+hold when the factor matrices are constrained to be elementwise nonnegative --
+a common practical requirement. In the simple setting of a rank-1 nonnegative
+ground truth, we confirm that benign nonconvexity holds in the fully-observed
+case with RIP constant $\delta=0$. Surprisingly, however, this property fails
+to extend to the partially-observed case with any arbitrarily small RIP
+constant $\delta\to0^{+}$, irrespective of rank overparameterization. This
+finding exposes a critical theoretical gap: the continuity argument widely used
+to explain the empirical robustness of low-rank matrix recovery fundamentally
+breaks down once nonnegative constraints are imposed.",http://arxiv.org/pdf/2505.03717v1,"Nonnegative Low-rank Matrix Recovery Can Have Spurious Local
+Minima ∗
+Richard Y. Zhang
+Dept. of Electrical and Computer Engineering
+University of Illinois at Urbana-Champaign
+306 N Wright St, Urbana, IL 61801
+ryz@illinois.edu
+May 7, 2025
+Abstract
+The classical low-rank matrix recovery problem is well-known to exhibitbenign nonconvexity
+under the restricted isometry property (RIP): local optimization is guaranteed to converge
+to the global optimum, where the ground truth is recovered. We investig"
